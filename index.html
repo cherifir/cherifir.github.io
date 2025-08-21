@@ -1,55 +1,71 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Rayan Cherifi - Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- LinkedIn Badge Script -->
-		<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-		<section id="header">
-			<header class="major">
-				<h1>🚀 Rayan Cherifi</h1>
-				<p>Portfolio in progress — let’s connect in the meantime!</p>
-			</header>
-			<div class="container">
-				<!-- LinkedIn Badge -->
-				<div class="badge-base LI-profile-badge" 
-					data-locale="fr_FR" 
-					data-size="medium" 
-					data-theme="dark" 
-					data-type="VERTICAL" 
-					data-vanity="rayan-cherifi" 
-					data-version="v1">
-					<a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/rayan-cherifi?trk=profile-badge">Rayan Cherifi</a>
-				</div>
-			</div>
-		</section>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="container">
-				<footer>
-					<ul class="copyright">
-						<li>&copy; 2025 Rayan Cherifi</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
-			</div>
-		</section>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-
-	</body>
+<html lang="en">
+<head>
+  <title>Rayan Cherifi - Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- LinkedIn Badge Script -->
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <style>
+    /* Centering the content */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #d7d2cc, #304352);
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.3em;
+      color: white;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      color: #eee;
+    }
+    .badge-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    /* Ensure LinkedIn badge is responsive */
+    .badge-base {
+      transform: scale(0.95);
+      transform-origin: top center;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.8em; }
+      p { font-size: 1em; }
+      .badge-base { transform: scale(0.85); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Rayan Cherifi</h1>
+    <p>Portfolio in progress — let’s connect in the meantime!</p>
+    <div class="badge-wrapper">
+      <!-- LinkedIn Badge -->
+      <div class="badge-base LI-profile-badge" 
+          data-locale="fr_FR" 
+          data-size="medium" 
+          data-theme="dark" 
+          data-type="VERTICAL" 
+          data-vanity="rayan-cherifi" 
+          data-version="v1">
+          <a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/rayan-cherifi?trk=profile-badge">Rayan Cherifi</a>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
